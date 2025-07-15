@@ -123,7 +123,8 @@ clipedia_repo/
 │               │   └── ...
 │               └── ...
 ├── README.md
-└── LICENSE 
+├── LICENSE 
+└── DATA_LICENSE 
 
 ```
 
