@@ -1,0 +1,4 @@
+This repository includes Wikipedia-derived content (from the April 20, 2024 Wikimedia dump), 
+which is licensed under the Creative Commons Attribution-ShareAlike 4.0 International License (CC BY-SA 4.0).
+
+See https://creativecommons.org/licenses/by-sa/4.0/ and https://dumps.wikimedia.org/legal.html for details. 
