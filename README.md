@@ -1,7 +1,7 @@
 # CLIPedia (Mathematica Code)
 
-This repository contains the full Mathematica code for reproducing inference results from pre-processed corpus and pre-trained model, as well as a manual in notebook form and special functions to help building a CLIPedia from Wikipedia dumps.
-It is released in tandem with the following paper:
+This repository contains the complete Mathematica code for reproducing CLIPedia inference results using a pre-processed corpus and a pre-trained model. 
+It also includes a notebook manual and specialized functions to support building a CLIPedia from Wikipedia dumps. This repository is released alongside the following paper:
 > **Nickl, Agostino. “Navigating CLIPedia: Architectonic Instruments for Querying and Questing a Latent Encyclopedia.” Frontiers of Architectural Research, forthcoming.**
 
 ---
@@ -22,7 +22,7 @@ To reproduce the full setup:
 - **notebooks/**
   - `clipedia_inference.nb`: Main inference notebook and CLIPedia's interface
   - `clipedia_inference_with_outputs.nb`: Inference notebook with precomputed outputs
-  - `clipedia_instruction.nb`: A step by step notebook manual with key functions helping build a CLIPedia from Wikipedia dumps.
+  - `clipedia_build.nb`: A step by step notebook manual with key functions helping build a CLIPedia from Wikipedia dumps.
   - `exports/`: Exported Questbooks showing different Journeys with Archidromes, Thelodromes, Diadromes. Note: Outputs may have been cropped to not surpass 100 MB.
 
 - **code/**
@@ -59,7 +59,7 @@ clipedia_repo/
 ├── notebooks/
 │   ├── clipedia_inference.nb
 │   ├── clipedia_inference_with_outputs.nb
-│   ├── clipedia_instruction.nb
+│   ├── clipedia_build.nb
 │   └── exports/
 │       ├── Flying_with_Vitruvius.nb
 │       ├── Walking_with_Vitruvius.nb
