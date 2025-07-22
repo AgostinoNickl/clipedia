@@ -1,6 +1,6 @@
 # CLIPedia (Mathematica Code)
 
-This repository contains the complete Mathematica code for reproducing CLIPedia inference results using a pre-processed corpus and a pre-trained model. 
+This repository contains the complete Mathematica code for reproducing CLIPedia inference results using a sample from  pre-processed corpus and a pre-trained model. 
 It also includes a notebook manual and specialized functions to support building a CLIPedia from Wikipedia dumps. This repository is released alongside the following paper:
 > **Nickl, Agostino. “Navigating CLIPedia: Architectonic Instruments for Querying and Questing a Latent Encyclopedia.” Frontiers of Architectural Research, forthcoming.**
 
@@ -132,7 +132,7 @@ clipedia_repo/
 
 ## Requirements
 
-- Mathematica 13.2 (tested on macOS) for inference of a pre-trained CLIPedia. At least 32 GB RAM and a GPU addressable by Mathematica for building a CLIPedia from scratch.
+- Mathematica 13.2 (tested on macOS) or 14.2 (tested on Windows PC) for inference of a pre-trained CLIPedia. At least 32 GB RAM and a GPU addressable by Mathematica for building a CLIPedia from scratch.
 - ca. 2.5 GB free local storage space to host the repository and run `clipedia_inference.nb` for a demo dataset.
 - ca. 30 GB free local storage to run `clipedia_build.nb` on a small fraction of the Wikipedia dump, which includes hosting the latter (ca. 25 GB).
 - ca. 600-800 GB free local storage to run `clipedia_build.nb` on the full Wikipedia dump.
@@ -142,7 +142,7 @@ clipedia_repo/
 ## Usage
 
 1. Download the full repository.
-2. Open `notebooks/clipedia_inference.nb` in Mathematica 13.2 (was not tested for other versions).
+2. Open `notebooks/clipedia_inference.nb` in Mathematica.
 3. Load dependencies by evaluating the first cells, then follow the notebook structure to explore preview queries and quests.
 4. For full functionality, you need the full corpus (ca. 500 GB), which you can request from the author (see above).
 5. To build your own CLIPedia, follow the steps in `notebooks/clipedia_build.nb`.
